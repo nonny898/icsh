@@ -143,6 +143,7 @@ void signalHandler(){
 }
 
 int main() {
+    printf("Hello");
     signal(SIGINT, signalHandler);
     shellPrompt();
     return EXIT_SUCCESS;
