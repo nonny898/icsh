@@ -17,4 +17,8 @@ unistd.h
 -
 sys/wait.h
 -
+signal.h
+-
+setjmp.h
+-
 
