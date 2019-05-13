@@ -78,9 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/atichardpc/CLionProjects/untitled/HelloWorld.c">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="/home/atichardpc/CLionProjects/untitled/icsh.c">
 			<Option target="untitled"/>
 		</Unit>

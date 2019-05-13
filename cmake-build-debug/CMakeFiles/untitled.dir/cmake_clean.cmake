@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/icsh.c.o"
-  "CMakeFiles/untitled.dir/HelloWorld.c.o"
   "untitled.pdb"
   "untitled"
 )

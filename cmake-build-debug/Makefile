@@ -123,33 +123,6 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-HelloWorld.o: HelloWorld.c.o
-
-.PHONY : HelloWorld.o
-
-# target to build an object file
-HelloWorld.c.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/HelloWorld.c.o
-.PHONY : HelloWorld.c.o
-
-HelloWorld.i: HelloWorld.c.i
-
-.PHONY : HelloWorld.i
-
-# target to preprocess a source file
-HelloWorld.c.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/HelloWorld.c.i
-.PHONY : HelloWorld.c.i
-
-HelloWorld.s: HelloWorld.c.s
-
-.PHONY : HelloWorld.s
-
-# target to generate assembly for a file
-HelloWorld.c.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/HelloWorld.c.s
-.PHONY : HelloWorld.c.s
-
 icsh.o: icsh.c.o
 
 .PHONY : icsh.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
-	@echo "... HelloWorld.o"
-	@echo "... HelloWorld.i"
-	@echo "... HelloWorld.s"
 	@echo "... icsh.o"
 	@echo "... icsh.i"
 	@echo "... icsh.s"
