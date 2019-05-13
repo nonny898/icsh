@@ -12,13 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="729eda64-a362-4e19-8f0f-87cad0652b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/atichardpc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/HelloWorld.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/icsh.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/icsh.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello" beforeDir="false" afterPath="$PROJECT_DIR$/hello" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/icsh" beforeDir="false" afterPath="$PROJECT_DIR$/icsh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/icsh.c" beforeDir="false" afterPath="$PROJECT_DIR$/icsh.c" afterDir="false" />
     </list>
@@ -47,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/icsh.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1404">
-              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+            <state relative-caret-position="633">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -59,8 +54,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,11 +171,12 @@
       <workItem from="1557552172465" duration="623000" />
       <workItem from="1557587246678" duration="1356000" />
       <workItem from="1557650085941" duration="16773000" />
+      <workItem from="1557678257203" duration="2333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57708000" />
+    <option name="totallyTimeSpent" value="60041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="960" height="995" extended-state="4" />
@@ -238,15 +237,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/icsh.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1404">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+        <state relative-caret-position="633">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

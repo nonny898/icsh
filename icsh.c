@@ -49,9 +49,7 @@ char *input(void) {
     int c;
 
     while (1) {
-        // Read a character
         c = getchar();
-
         if (c == EOF) {
             exit(EXIT_SUCCESS);
         } else if (c == '\n') {
@@ -110,7 +108,9 @@ int builtInCommands(char **args) {
  */
 void launcher(char **args) {
 
+    pid_t pgid;
     pid_t pid;
+    int status;
     pid = fork();
 
     if (pid < 0) {
@@ -124,14 +124,15 @@ void launcher(char **args) {
         signal(SIGTSTP, SIG_DFL);
         signal(SIGCHLD, &signalHandler_child);
         signal(SIGTTIN, SIG_DFL);
-
-        usleep(2000000);
         execvp(args[0], args);
         exit(EXIT_SUCCESS);
 
 
     } else {
-        wait(NULL);
+        if (strcmp("&",args[1]) == 0) {
+
+        }
+    wait(NULL);
     }
 }
 
@@ -143,7 +144,6 @@ void execute(char **args) {
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wmissing-noreturn"
-
 
 /*
  * Compiled properly without any warning or error.
